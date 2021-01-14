@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+
+    <string name="score">Score 0/8</string>
+
+    <string name="question_number">1/8 Question</string>
+
+
+    <string name="question_1">What technology is used to make telephone calls over the internet possible?</string>
+    <string name="question1_A">Bluetooth</string>
+    <string name="question1_B">Ethernet</string>
+    <string name="question1_C">NFC</string>
+    <string name="question1_D">VoIP</string>
+    <string name="answer_1">VoIP</string>
+
+    <string name="question_2">Which is the most widely used computer language?</string>
+    <string name="question2_A">C#</string>
+    <string name="question2_B">PHP</string>
+    <string name="question2_C">Swift</string>
+    <string name="question2_D">JAVA</string>
+    <string name="answer_2">JAVA</string>
+
+
+    <string name="question_3">Which of the following is an important step towards the paperless concept?</string>
+    <string name="question3_A">Doxing</string>
+    <string name="question3_B">Debugging</string>
+    <string name="question3_C">Downloading</string>
+    <string name="question3_D">Digitizing</string>
+    <string name="answer_3">Digitizing</string>
+
+
+    <string name="question_4">Approximately,how much data exists in the digital universe today?</string>
+    <string name="question4_A">2.7 Gigabytes</string>
+    <string name="question4_B">2.6 Terabytes</string>
+    <string name="question4_C">2.8 Megabytes</string>
+    <string name="question4_D">2.7 Zettabytes</string>
+    <string name="answer_4">2.7 Zettabytes</string>
+
+
+    <string name="question_5">Making a compressed digital archive might produce what type of file format?</string>
+    <string name="question5_A">PDF</string>
+    <string name="question5_B">JPEG</string>
+    <string name="question5_C">MP3</string>
+    <string name="question5_D">ZIP</string>
+    <string name="answer_5">JPEG</string>
+
+
+    <string name="question_6">What is the name of platform which the mostly developers use for developing android applications?</string>
+    <string name="question6_A">Eclipse</string>
+    <string name="question6_B">Anaconda</string>
+    <string name="question6_C">Turbo C++</string>
+    <string name="question6_D">Android Studio</string>
+    <string name="answer_6">Android Studio</string>
+
+
+    <string name="question_7">Which of the following highly uses the concept of an array?</string>
+    <string name="question7_A">Binary Search Tree</string>
+    <string name="question7_B">Caching</string>
+    <string name="question7_C">Spatial Locality</string>
+    <string name="question7_D">Scheduling of Processes</string>
+    <string name="answer_7">Spatial Locality</string>
+
+
+    <string name="question_8">Which one of the following is the process of inserting an element in the stack?</string>
+    <string name="question8_A">Insert</string>
+    <string name="question8_B">Add</string>
+    <string name="question8_C">Push</string>
+    <string name="question8_D">None of the above</string>
+    <string name="answer_8"></string>
+    <string name="selectedoption">SelectedOption</string>
+    <string name="correctanswer">CorrectAnswer</string>
+
+
+</resources>

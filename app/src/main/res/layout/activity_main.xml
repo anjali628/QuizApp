@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#272343"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/QuestionNumber"
+        android:text="@string/question_number"
+        android:textColor="#ffa384"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selectedoption"
+            android:visibility="gone"
+            android:id="@+id/selectOption"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+
+
+            android:gravity="center_horizontal"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/correctAnswer"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="@string/correctanswer"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:id="@+id/question"
+            android:text="@string/question_1"
+            android:textSize="25sp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstTwoOptions"
+        android:gravity="center"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/optionA"
+            android:text="@string/question1_A"
+            android:textColor="#272343"
+            android:textAlignment="center"
+            android:background="@drawable/optiondesign"
+            android:paddingTop="14dp"
+            android:gravity="center_horizontal"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/optionB"
+            android:text="@string/question1_B"
+            android:background="@drawable/optiondesign"
+            android:textColor="#272343"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:paddingTop="14dp"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondTwoOptions"
+        android:gravity="center"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/optionC"
+            android:text="@string/question1_C"
+            android:layout_marginTop="10dp"
+            android:textColor="#272343"
+            android:textAlignment="center"
+            android:background="@drawable/optiondesign"
+            android:paddingTop="14dp"
+            android:gravity="center_horizontal"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/optionD"
+            android:text="@string/question1_D"
+            android:background="@drawable/optiondesign"
+            android:textColor="#272343"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:paddingTop="14dp"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="@string/score"
+            android:padding="10dp"
+            android:layout_gravity="end"
+
+            />
+
+        <ProgressBar
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffa384"
+            android:id="@+id/progressBar"
+            android:layout_gravity="bottom"
+
+            android:layout_marginTop="12dp"
+
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:indeterminate="false"
+            android:layout_marginBottom="-10dp"
+            />
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -194,12 +194,16 @@ public class MainActivity extends AppCompatActivity {
         qn=qn+1;
 
         if(qn<=questionBank.length){
-            questionNumber.setText(qn + "/" +questionBank.length + "Question");
+            questionNumber.setText(qn + "/" + questionBank.length + "Question");
 
         }
 
-        score.setText("Score " + mscore +"/" +questionBank.length);
+        score.setText("Score " + mscore + "/" + questionBank.length);
         progressBar.incrementProgressBy(PROGRESS_BAR);
+
+
+
+
 
 
     }

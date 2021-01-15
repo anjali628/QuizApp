@@ -157,7 +157,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="20dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="40dp"
         >
 
         <TextView
@@ -168,6 +169,8 @@
             android:textStyle="bold"
             android:text="@string/score"
             android:padding="10dp"
+            android:layout_marginBottom="-15dp"
+
             android:layout_gravity="end"
 
             />
@@ -179,11 +182,14 @@
             android:id="@+id/progressBar"
             android:layout_gravity="bottom"
 
-            android:layout_marginTop="12dp"
+            android:layout_marginBottom="-10dp"
+
+            android:layout_marginTop="10dp"
+
 
             style="@android:style/Widget.ProgressBar.Horizontal"
             android:indeterminate="false"
-            android:layout_marginBottom="-10dp"
+
             />
 
 

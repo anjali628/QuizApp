@@ -67,7 +67,7 @@
     <string name="question8_B">Add</string>
     <string name="question8_C">Push</string>
     <string name="question8_D">None of the above</string>
-    <string name="answer_8"></string>
+    <string name="answer_8">Push</string>
     <string name="selectedoption">SelectedOption</string>
     <string name="correctanswer">CorrectAnswer</string>
 

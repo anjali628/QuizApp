@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
 
             };
-    final int PROGRESS_BAR=(int)Math.ceil(100/questionBank.length);
+    final int PROGRESS_BAR=13;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
